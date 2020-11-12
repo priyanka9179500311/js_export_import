@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap 4 Example</title>
+		<meta charset="utf-8">
+  
+	</head>
+	<body>
+
+		<div class="container">
+		  
+		</div>
+		
+		<script type="module">
+			import { MyClass,MyClass2,MyClass3,MyClass4 } from './function6.js';
+			
+			//create an externel object
+			let obj = new MyClass();
+			let obj2 = new MyClass2();
+			let obj3 = new MyClass3();
+			let obj4 = new MyClass4(2.4);
+			
+			//access member usind . operator
+			let m = obj.showName('priyanka');
+			let m2 = obj2.showName('mahima');
+			let m3 = obj3.add(20,20);
+			let m4 = obj4.mul(30,3);
+		</script>
+		
+	</body>
+	
+</html>
