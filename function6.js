@@ -58,3 +58,19 @@ export class MyClass4{
 		
 	}
 }
+
+export class MyClass5{
+	//1. property
+	
+	//2. constructor
+	constructor(){
+		alert("Hello from constructor");
+	}
+	
+	//3. method
+	mul(x,y){
+		alert("the sub is"+(x-y));
+		
+	}
+}
+
